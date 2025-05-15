@@ -7,7 +7,7 @@ b. Retorne os atributos das tuplas: Nome do estudante, Departamento do estudante
 c. Filtre as tuplas utilizando o parâmetro de entrada. */
 
 CREATE PROCEDURE student_grade_points
-    @grade CHAR(2) -- A+, A, A-, B+, etc.
+    @grade CHAR(2) 
 AS
 BEGIN
     SELECT 
